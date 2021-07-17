@@ -1,0 +1,17 @@
+{
+  "name": "dissonance/http-response-mutable",
+  "description": "Mutable response, the decorator is made to work with the response object via a Psr container",
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": ["http response", "psr7", "response mutable"],
+  "require": {
+    "php" : ">=5.4.0",
+    "psr/http-message": "^1.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Dissonance\\Http\\ResponseMutable": "src/"
+    }
+  }
+}
