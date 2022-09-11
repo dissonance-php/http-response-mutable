@@ -21,7 +21,7 @@ Mutable response, the decorator is made to work with the response object via a P
  **/
 $response = $psr_response_instance;
 
-$responseMutable  = new Symbiotic\Http\ResponseMutable\ResponseMutable($response);
+$responseMutable  = new Symbiotic\Http\ResponseMutable($response);
  /**
   *  your object changes...
   **/
