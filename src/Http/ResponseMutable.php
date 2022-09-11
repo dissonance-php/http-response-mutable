@@ -1,6 +1,8 @@
 <?php
 
-namespace Dissonance\Http\ResponseMutable;
+declare(strict_types=1);
+
+namespace Symbiotic\Http;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
@@ -140,7 +142,6 @@ class ResponseMutable implements ResponseInterface
         $this->response = $this->response->withStatus($code, $reasonPhrase);
 
         return $this;
-
     }
 
     /**

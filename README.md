@@ -5,11 +5,11 @@ Widespread use of this decorator is not recommended! We use it to transfer it to
 
 - Compatible with PSR-7 (Http Message)
 - Simple class
-- php 5.4+
+- php 7.2+
 
 ## Installation
 ```
-composer require dissonance/http-response-mutable 
+composer require symbiotic/http-response-mutable 
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ Mutable response, the decorator is made to work with the response object via a P
  **/
 $response = $psr_response_instance;
 
-$responseMutable  = new Dissonance\Http\ResponseMutable\ResponseMutable($response);
+$responseMutable  = new Symbiotic\Http\ResponseMutable\ResponseMutable($response);
  /**
   *  your object changes...
   **/
